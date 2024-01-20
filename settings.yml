@@ -1,0 +1,7 @@
+svg_icons:
+  default: "video"
+  type: "list"
+  list_type: "compact"
+Meeting_url:
+  type: "string"
+  default: "https://zui.nz"
