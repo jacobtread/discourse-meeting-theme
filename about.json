@@ -5,9 +5,6 @@
   "name": "Discourse Meeting Theme",
   "component": true,
   "modifiers": {
-    "svg_icons": [
-      "video",
-      "copy"
-    ]
+    "svg_icons": ["video", "copy"]
   }
 }

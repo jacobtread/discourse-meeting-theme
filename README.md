@@ -20,4 +20,3 @@ make it easy to create and share meetings with others.
 Clicking this menu button opens a dialog where you can create a meeting:
 
 ![Meeting Dialog](./docs/dialog.png)
-

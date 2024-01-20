@@ -1,7 +1,12 @@
 {
   "author": "Jacobtread",
   "license": "MIT",
+  "repository": "https://github.com/jacobtread/discourse-meeting-theme",
+  "version": "1.0.0",
   "devDependencies": {
-    "eslint-config-discourse": "latest"
+    "@discourse/lint-configs": "^1.2.0",
+    "ember-template-lint": "^5.13.0",
+    "eslint": "^8.54.0",
+    "prettier": "^3.2.4"
   }
 }

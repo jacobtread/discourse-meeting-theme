@@ -1,5 +1,3 @@
-/*eslint no-undef:0 */
-
 import Component from "@glimmer/component";
 import { tracked } from "@glimmer/tracking";
 import { Input, computed } from "@ember/component";
@@ -105,8 +103,6 @@ export default class CreateMeeting extends Component {
                 {{i18n (themePrefix "modal.room_field_description")}}
             </div>
           </div>
-
-    
           <p class="desc">
             {{i18n (themePrefix "modal.url_description")}}
           </p>
@@ -124,8 +120,6 @@ export default class CreateMeeting extends Component {
             />
           </div>
         </div>
-        
-
       </:body>
       <:footer>
         <DButton
