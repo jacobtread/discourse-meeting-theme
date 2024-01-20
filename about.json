@@ -1,7 +1,7 @@
 {
-  "about_url": null,
-  "license_url": null,
+  "about_url": "https://github.com/jacobtread/discourse-meeting-theme",
+  "license_url": "https://raw.githubusercontent.com/jacobtread/discourse-meeting-theme/main/LICENSE.md",
   "assets": {},
-  "name": "Discourse Video Theme",
+  "name": "Discourse Meeting Theme",
   "component": true
 }
