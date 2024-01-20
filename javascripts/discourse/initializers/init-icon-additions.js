@@ -18,7 +18,8 @@ export default {
                         {
                             attributes: {
                                 href: meetingURL,
-                                target: "_blank"
+                                target: "_blank",
+                                title: "Start a meeting"
                             }
                         },
                         // Use the video icon
