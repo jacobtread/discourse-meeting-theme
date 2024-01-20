@@ -1,12 +1,13 @@
 import { withPluginApi } from "discourse/lib/plugin-api";
 import { iconNode } from "discourse-common/lib/icon-library";
+import CreateMeeting from "../components/modal/create-meeting";
 
 export default {
-    name: "video-button-component",
+    name: "init-icon-additions",
 
     initialize() {
         withPluginApi("0.8", (api) => {
-            const meetingURL = settings.Meeting_url;
+            const modal = api.container.lookup("service:modal");
 
             // Decorate the header icons section
             api.decorateWidget("header-icons:before", (helper) => {
@@ -16,8 +17,10 @@ export default {
                     helper.h(
                         "a.icon.btn-flat",
                         {
+                            onclick: () => {
+                                modal.show(CreateMeeting, {})
+                            },
                             attributes: {
-                                href: meetingURL,
                                 target: "_blank",
                                 title: "Start a meeting"
                             }

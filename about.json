@@ -3,5 +3,11 @@
   "license_url": "https://raw.githubusercontent.com/jacobtread/discourse-meeting-theme/main/LICENSE.md",
   "assets": {},
   "name": "Discourse Meeting Theme",
-  "component": true
+  "component": true,
+  "modifiers": {
+    "svg_icons": [
+      "video",
+      "copy"
+    ]
+  }
 }

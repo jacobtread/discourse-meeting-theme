@@ -1,3 +1,12 @@
 en:
   theme_metadata:
     description: "Adds a video button for quickly creating video meetings"
+  room_label: Room ID
+  room_url_label: Room URL
+  modal:
+    room_field_description: Enter an ID for your room (or leave empty to use a randomly generated ID).
+    url_description: You can connect to and share the room using the URL below
+    open: Open Meeting
+    cancel: Cancel
+    copy: Copy Meeting URL
+    title: Launch a Call
